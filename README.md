@@ -31,3 +31,11 @@ Automatically skips unavailable tracks on Spotify
 Fully automated playlist creation
 
 Keeps your playlists private and organized
+
+#you need toinput the date in (YYYY-MM-DD) form
+![input](https://github.com/user-attachments/assets/f047c21e-4aa7-410a-854d-5998bceae396)
+
+# Your playlist gets saved in your Spotify
+![Playlist_Created](https://github.com/user-attachments/assets/7a0b9f6a-847c-4d1f-b60a-5bb81a9e30f0)
+
+
