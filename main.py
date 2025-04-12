@@ -14,7 +14,7 @@ while True:
     date = input("Enter a date (YYYY-MM-DD) to create a Billboard 100 playlist: ").strip()
     if len(date) == 10 and date[4] == '-' and date[7] == '-':
         break
-    print("❌ Invalid format! Please use YYYY-MM-DD.")
+    print("Invalid format! Please use YYYY-MM-DD.")
 
 # Scrape Billboard
 header = {"User-Agent": "Mozilla/5.0"}
@@ -56,4 +56,4 @@ print(f"Created playlist: {playlist['name']}")
 
 # Add tracks
 sp.playlist_add_items(playlist_id=playlist["id"], items=song_uris)
-print("✅ Playlist populated with songs.")
+print("Playlist populated with songs.")
