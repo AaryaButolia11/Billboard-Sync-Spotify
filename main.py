@@ -6,6 +6,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import os
 
+
+#get secret keys from os
 CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID")
 CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET")
 REDIRECT_URI = "http://localhost:8888/callback"
