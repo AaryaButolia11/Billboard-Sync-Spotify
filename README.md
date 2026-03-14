@@ -12,6 +12,10 @@ Automatically create a private playlist and add available tracks
 
 It’s a fun and nostalgic way to relive your favorite music eras!
 
+# Workflow
+![Alt text for the image](workflow.png)
+
+
 # Tech Stack:
 Python
 
